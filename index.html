@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcutaor</title>
+    <style>
+        * {font-family: 'Josefin Sans', sans-serif; font-size: 20px;
+    }
+        div{  display: flex;
+        flex-direction: column;
+    justify-content: center; align-items: center; }
+    </style>
+</head>
+<body>
+    <div class="centerdiv">
+        <h1>Bmi Calculator</h1>
+        <br>
+        <form method="post" >
+            <label for="weight">Weight :</label>
+            <input type="text" name="wk" placeholder="Kilograms" id="weight"> 
+            <input type="text" name="wg" placeholder="Grams" id="weight"> 
+            <br>
+            <label for="hight">Hight  : </label>
+            <input type="text" name="hf" placeholder="feet"  id="hight">
+            <input type="text" name="hi" placeholder="inches"  id="hight">
+            <br>
+            <button type="submit">calculate</button>
+            <div class="notes">      
+               <p>BMI Categories:</p> 
+               <p>Underweight = <18.5</h6> 
+               <p>Normal weight = 18.5–24.9</p> 
+               <p> Overweight = 25–29.9</p> 
+               <p>Obesity = BMI of 30 or greater</p> 
+                
+               
+                </div>
+
+        </form>
+        <!-- <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form> -->
+    </div>
+</body>
+</html>
